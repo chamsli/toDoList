@@ -1,3 +1,10 @@
+import {
+  createTask,
+  filterTasks,
+  getTaskStats,
+  isValidTask
+} from "./taskManager.js";
+
 let tasks = [];
 let currentFilter = "all";
 
@@ -10,7 +17,6 @@ const emptyMessage = document.querySelector("#empty-message");
 const totalTasks = document.querySelector("#total-tasks");
 const pendingTasks = document.querySelector("#pending-tasks");
 const completedTasks = document.querySelector("#completed-tasks");
-
 
 
 
