@@ -1,3 +1,11 @@
+import {
+  createTask,
+  isValidTask,
+  filterTasks,
+  getTaskStats
+} from "../js/taskManager.js";
+
+
 let tasks = [];
 let currentFilter = "all";
 
